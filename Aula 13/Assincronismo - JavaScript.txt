@@ -1,0 +1,24 @@
+﻿Assincronismos.
+
+
+No JavaScript, a programação assíncrona pode ser 
+aplicada de três formas:
+
+
+1 - Por calbacks (função de retorno ou chamada de retorno)
+2 - Por promises (promessas) 
+3 - Resolvendo promises utilizando asyncs/always. 
+
+
+Promises:
+
+
+* A prmise é um objeto que guarda uma promessa de que algo será realizado.
+* É útil para os casos em que estamos lidando com operações assíncronas.
+* A promise estará em alguns dos estados abaixo:
+1. Pending: A promise foi iniciada, mas está pendente.
+2. Fullfilled: A promise foi concretizada com sucesso.
+3. Rejected: A promise foi rejeitada, porque houve um erro. (Caso em que houve erro e a promise não conseguiu ser executada)
+
+
+* Exemplo de utilização: pegar dados do back-end (API) -

@@ -1,0 +1,3 @@
+Nome: Fernando
+Idade: 26
+Altura: 1.68
